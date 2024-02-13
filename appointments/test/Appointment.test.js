@@ -14,7 +14,11 @@ describe("Appointment", () => {
     phoneNumber: "",
   };
 
-  let container;
+
+
+  beforeEach(() => {
+    initializeReactContainer();
+  });
 
   beforeEach(() => {
     container = document.createElement("div");
